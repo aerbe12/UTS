@@ -129,7 +129,7 @@ ul {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  background-image: url("assets/preloader.gif");
+  background-image: url("preloader.gif");
   background-size: 10rem;
   background-position: center center;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@ ul {
   background-color: #fce0e3;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  background-image: url("assets/virus.png");
+  background-image: url("virus.png");
   background-position: center center;
   background-size: 3rem;
   background-repeat: no-repeat;
