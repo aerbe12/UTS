@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $.ajax({
     type: "GET",
-  url: "../api/stats.json",
+  url: "stats.json",
   success: function(province){
 
     var dataProvince = province.regions;
@@ -21,15 +21,14 @@ $(document).ready(function(){
 
 $.ajax ({
   type: "GET",
-  url: "../api/stats.json",
+  url: "stats.json",
   success: function(data){
 
-    $('#infected').append(data.numbers.infected+' case')
-    $('#recovered').append(data.numbers.recovered+' case')
-    $('#fatal').append(data.numbers.fatal+' case')
+    $('#infected').append(data.numbers.infected+'<br> case')
+    $('#recovered').append(data.numbers.recovered+' <br> case')
+    $('#fatal').append(data.numbers.fatal+' <br> case')
 
-    //  consloe log
-   console.log(data)
+  
   }
 
 })
